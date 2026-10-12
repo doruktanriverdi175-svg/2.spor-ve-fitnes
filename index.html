@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FitLife | Spor ve Fitness</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #101713;
+  color: white;
+}
+
+header {
+  background: #19251e;
+  padding: 22px;
+  text-align: center;
+  border-bottom: 2px solid #7bdc65;
+}
+
+header h1 {
+  color: #7bdc65;
+  margin: 0;
+}
+
+nav {
+  margin-top: 18px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.hero {
+  text-align: center;
+  padding: 65px 20px;
+  background: linear-gradient(135deg, #244c32, #101713);
+}
+
+.hero h2 {
+  font-size: 36px;
+}
+
+.hero p {
+  color: #d1dfd4;
+  line-height: 1.7;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 20px;
+  background: #7bdc65;
+  color: #102014;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+h2.section-title {
+  text-align: center;
+  color: #7bdc65;
+  margin-top: 35px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 25px;
+}
+
+.card {
+  background: #1d2a22;
+  border: 1px solid #344b39;
+  border-radius: 12px;
+  padding: 22px;
+  width: 280px;
+}
+
+.card h3 {
+  color: #7bdc65;
+}
+
+.card p {
+  line-height: 1.7;
+  color: #d5dfd7;
+}
+
+.about {
+  text-align: center;
+  padding: 30px 20px;
+  line-height: 1.8;
+}
+
+footer {
+  background: #19251e;
+  text-align: center;
+  padding: 20px;
+  color: #c4d1c7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 600px) {
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  nav a {
+    display: inline-block;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>💪 FitLife</h1>
+  <nav>
+    <a href="#anasayfa">Ana Sayfa</a>
+    <a href="#sporlar">Sporlar</a>
+    <a href="#beslenme">Beslenme</a>
+    <a href="#hakkimizda">Hakkımızda</a>
+  </nav>
+</header>
+
+<section class="hero" id="anasayfa">
+  <h2>Hareket Et, Kendini İyi Hisset!</h2>
+  <p>Spor, hareket ve dengeli beslenme hakkında
+  bilgi edinmek için FitLife dünyasını keşfet.</p>
+  <a href="#sporlar" class="button">Sporları Keşfet</a>
+</section>
+
+<h2 class="section-title" id="sporlar">
+  Spor ve Egzersiz
+</h2>
+
+<section class="cards">
+  <div class="card">
+    <h3>🏃 Kardiyo</h3>
+    <p>Yürüyüş, koşu ve bisiklet gibi aktiviteleri
+    keşfet. Kendine uygun bir hareket seç ve
+    düzenli molalar vermeyi unutma.</p>
+  </div>
+
+  <div class="card">
+    <h3>🏋️ Kuvvet Çalışmaları</h3>
+    <p>Vücut ağırlığıyla yapılan temel hareketleri
+    öğren. Hareketleri doğru teknikle ve kendi
+    seviyene uygun şekilde uygula.</p>
+  </div>
+
+  <div class="card">
+    <h3>🧘 Esneme</h3>
+    <p>Hafif esneme hareketleriyle hareket
+    kabiliyetini destekle. Zorlanmadan ve
+    kontrollü şekilde hareket et.</p>
+  </div>
+</section>
+
+<h2 class="section-title" id="beslenme">
+  Sağlıklı Beslenme
+</h2>
+
+<section class="cards">
+  <div class="card">
+    <h3>🥣 Kahvaltı</h3>
+    <p>Yulaf, süt veya yoğurt ve meyveyle
+    hazırlanan pratik bir kahvaltı seçeneği.</p>
+  </div>
+
+  <div class="card">
+    <h3>🍚 Dengeli Öğün</h3>
+    <p>Pirinç, sebze ve sevdiğin bir protein
+    kaynağıyla çeşitli bir öğün hazırlayabilirsin.</p>
+  </div>
+
+  <div class="card">
+    <h3>💧 Su İçmeyi Unutma</h3>
+    <p>Gün boyunca susuzluğunu dikkate al
+    ve özellikle hareket ederken su içmeyi unutma.</p>
+  </div>
+</section>
+
+<section class="about" id="hakkimizda">
+  <h2 class="section-title">Hakkımızda</h2>
+  <p>FitLife, spor ve dengeli yaşam hakkında
+  bilgilendirme amacıyla hazırlanmış bir
+  dijital tasarım projesidir.</p>
+</section>
+
+<footer>
+  <p>© 2026 FitLife | Dijital Tasarım Projesi</p>
+</footer>
+
+</body>
+</html>
